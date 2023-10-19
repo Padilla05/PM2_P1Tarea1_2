@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2_P1Tarea1_2.MainPage">
+
+      <StackLayout BackgroundColor="Snow">
+        <Image Source="https://images.app.goo.gl/GDWXe4pCTKLbAMax5" ></Image>
+        <Frame Padding="24" CornerRadius="0">
+            <Label Text="AGENDA" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="NOMBRES" FontSize="20" Padding="10,0,10,0" FontAttributes="Bold" TextColor="Black"/>
+        <Entry x:Name="txtnombre" Placeholder="Ingrese el Nombre" Keyboard="Text" TextColor="Black" />
+
+        <Label Text="APELLIDOS" FontSize="20" Padding="10,0,10,0" FontAttributes="Bold" TextColor="Black"/>
+        <Entry x:Name="txtapellido" Placeholder="Ingrese el Apellido" Keyboard="Text" TextColor="Black" />
+
+        <Label Text="EDAD" FontSize="20" Padding="10,0,10,0" FontAttributes="Bold" TextColor="Black"/>
+        <Entry x:Name="txtedad" Placeholder="Ingrese la Edad" Keyboard="Numeric" TextColor="Black" />
+
+        <Label Text="E-MAIL" FontSize="20" Padding="10,0,10,0" FontAttributes="Bold" TextColor="Black"/>
+        <Entry x:Name="txtcorreo" Placeholder="Ingrese el Correo Electronico" Keyboard="Email" TextColor="Black" />
+
+        <Label FontSize="5" />
+
+        <Button  x:Name="btnMostrar" Text="Enviar Informacion"   Background="LightSeaGreen" TextColor="White"/>
+        <Button  x:Name="btnBorrar" Text="Borrar"   Background="Crimson" TextColor="White"/>
+
+    </StackLayout>
+
+</ContentPage>
